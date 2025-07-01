@@ -7,7 +7,13 @@
   <meta property="og:title" content="Rishi Mishra Portfolio" />
   <meta property="og:description" content="Portfolio of Python developer Rishi Mishra specializing in Web Scraping and AI Agents." />
   <title>Rishi Mishra | Python Developer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  let s = document.createElement('script');
+  s.src = 'https://cdn.tailwindcss.com';
+  s.onerror = () => alert('⚠️ Tailwind failed to load. Please check your internet or use local build.');
+  document.head.appendChild(s);
+</script>
+
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
   <style>
     html {
